@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/typography";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans:
+        "Instrument Sans", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+
+    /* Base */
+    --color-background: hsl(205 45% 96%);
+    --color-foreground: hsl(210 30% 12%);
+
+    /* Muted */
+    --color-muted: hsl(205 30% 90%);
+    --color-muted-foreground: hsl(210 15% 40%);
+
+    /* Primary (Biru logo) */
+    --color-primary: hsl(205 75% 45%);
+    --color-primary-foreground: hsl(0 0% 100%);
+
+    /* Secondary (Kuning bintang) */
+    --color-secondary: hsl(48 95% 55%);
+    --color-secondary-foreground: hsl(45 90% 15%);
+
+    /* Accent (Merah logo - optional tapi sangat kuat secara visual) */
+    --color-accent: hsl(12 85% 50%);
+    --color-accent-foreground: hsl(0 0% 100%);
+
+    /* Border / subtle UI */
+    --color-border: hsl(205 20% 85%);
+    --color-ring: hsl(205 75% 45%);
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
