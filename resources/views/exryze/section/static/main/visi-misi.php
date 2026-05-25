@@ -6,7 +6,7 @@
             </h2>
 
             <p class="text-muted-foreground text-center leading-relaxed max-w-2xl mx-auto">
-                Arah gerak dan tujuan pembangunan yang selaras dengan cita-cita Kota Mataram.
+                Arah gerak dan tujuan pengelolaan pura yang selaras dengan nilai keagamaan dan pemberdayaan umat.
             </p>
         </div>
 
@@ -18,7 +18,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div class="p-6 sm:col-span-2 text-center">
                         <p class="text-primary font-semibold text-lg">
-                            TERWUJUDNYA PURA JAGATNATHA KARANGASEM TERTATA RAPI, TERTIB, ASPIRATIF, DAN MENINGKATKAN EKONOMI KERAKYATAN MELALUI PEMBERDAYAA MASYARAKAT YANG RELIGIUS.
+                            TERWUJUDNYA PURA JAGATNATHA KARANGASEM TERTATA RAPI, TERTIB, ASPIRATIF, DAN MENINGKATKAN EKONOMI KERAKYATAN MELALUI PEMBERDAYAAN MASYARAKAT YANG RELIGIUS.
                         </p>
                     </div>
                 </div>
@@ -31,27 +31,27 @@
                 <ul class="space-y-8 p-4">
                     <li class="flex gap-4">
                         <div class="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-lg">1</div>
-                        <p class="text-muted-foreground">Meningkatkan kinerja aparatur kelurahan berorientasi peningkatan pelayanan sehingga terwujudnya pelayanan prima.</p>
+                        <p class="text-muted-foreground">Meningkatkan kinerja panitia dan pengempon pura yang berorientasi pada kemudahan dan kenyamanan pelayanan umat dalam melaksanakan persembahyangan/yadnya.</p>
                     </li>
                     <li class="flex gap-4">
                         <div class="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-lg">2</div>
-                        <p class="text-muted-foreground">Iklim pembangunan berwawasan lingkungan.</p>
+                        <p class="text-muted-foreground">Menciptakan iklim penataan mandala pura yang asri, bersih, dan berwawasan lingkungan.</p>
                     </li>
                     <li class="flex gap-4">
                         <div class="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-lg">3</div>
-                        <p class="text-muted-foreground">Meningkatkan partisipasi masyarakat dalam pembangunan disegala bidang.</p>
+                        <p class="text-muted-foreground">Meningkatkan partisipasi aktif atau ngayah masyarakat dan donatur dalam pemeliharaan serta pembangunan pura di segala bidang.</p>
                     </li>
                     <li class="flex gap-4">
                         <div class="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-lg">4</div>
-                        <p class="text-muted-foreground">Menumbuh kembangkan ekonomi kerakyatan.</p>
+                        <p class="text-muted-foreground">Menumbuhkembangkan ekonomi kerakyatan bagi masyarakat sekitar melalui kegiatan bernapaskan keagamaan dan budaya.</p>
                     </li>
                     <li class="flex gap-4">
                         <div class="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-lg">5</div>
-                        <p class="text-muted-foreground">Meningkatkan sarana prasarana lingkungan pemukiman.</p>
+                        <p class="text-muted-foreground">Meningkatkan pemeliharaan sarana dan prasarana pelinggih serta bangunan pendukung di area pura.</p>
                     </li>
                     <li class="flex gap-4">
                         <div class="shrink-0 w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center font-bold text-lg">6</div>
-                        <p class="text-muted-foreground">Kerukunan Beragama.</p>
+                        <p class="text-muted-foreground">Memelihara nilai toleransi dan kerukunan beragama di lingkungan sekitar pura.</p>
                     </li>
                 </ul>
             </div>

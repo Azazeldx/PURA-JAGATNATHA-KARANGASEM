@@ -6,11 +6,12 @@
             </x-exryze::ui.badge>
 
             <h2 class="text-3xl md:text-4xl font-bold drop-shadow-xl">
-                Profil PURA JAGATNATHA KARANGASEM
+                Profil Pura Jagatnatha
             </h2>
 
             <p class="text-muted-foreground text-center leading-relaxed max-w-2xl mx-auto">
-                Mengenal lebih dekat sejarah, wilayah, dan demografi PURA JAGATNATHA KARANGASEM.
+                Pura Jagatnatha Kabupaten Karangasem<br>
+                Halaman ini berisi informasi mengenai sejarah, profil, dan kegiatan di Pura Jagatnatha Kabupaten Karangasem.
             </p>
         </div>
 
@@ -21,11 +22,11 @@
 
             <div class='flex flex-col gap-4'>
                 <h3 class="text-xl md:text-2xl font-bold drop-shadow-lg">
-                    Sekilas PURA JAGATNATHA KARANGASEM
+                    Profil Pura Jagatnatha Kabupaten Karangasem
                 </h3>
 
                 <p class="text-muted-foreground leading-relaxed mb-3 text-sm">
-                    PURA JAGATNATHA KARANGASEM merupakan salah satu kelurahan yang berada di Kecamatan Mataram, Kota Mataram, Provinsi Nusa Tenggara Barat. Terletak di pusat kota, PURA JAGATNATHA KARANGASEM menjadi salah satu kawasan strategis dengan kegiatan ekonomi, sosial, dan budaya yang dinamis. Dengan dukungan masyarakat yang aktif dan beragam, PURA JAGATNATHA KARANGASEM terus berkembang menjadi wilayah yang ramah, produktif, dan berbudaya.
+                    Pura Jagatnatha Kabupaten Karangasem adalah salah satu pura umum yang terletak strategis di pusat kota Amlapura, tepatnya di pertigaan antara Jalan Ngurah Rai dan Jalan Patih Jelantik, Lingkungan Tampuagan, Kelurahan Karangasem, Desa Adat Karangasem. Pura ini pada awalnya digagas sejak tahun 1976 dan dibangun sebagai tempat pemujaan atau persembahyangan bagi umat Hindu yang merantau dan bekerja di kota Amlapura. Melalui semangat gotong royong yang luar biasa dari pemerintah, tokoh agama, pengusaha, dan masyarakat, pembangunan fisik utama pura ini berhasil diselesaikan hanya dalam waktu 46 hari dan diresmikan (melaspas dan ngenteg linggih) pada tanggal 22 Agustus 1994 bertepatan dengan purnama ketiga.
                 </p>
             </div>
         </div>
@@ -33,26 +34,26 @@
         <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
             <div class="border-0 shadow-md rounded-2xl bg-background">
                 <div class="p-5 text-center">
-                    <p class="font-heading text-2xl font-bold text-primary">1.2 km²</p>
-                    <p class="text-xs text-muted-foreground mt-1">Luas Wilayah</p>
+                    <p class="font-heading text-2xl font-bold text-primary">1994</p>
+                    <p class="text-xs text-muted-foreground mt-1">Tahun Peresmian/Ngenteg Linggih</p>
                 </div>
             </div>
             <div class="border-0 shadow-md rounded-2xl bg-background">
                 <div class="p-5 text-center">
-                    <p class="font-heading text-2xl font-bold text-primary">8.450</p>
-                    <p class="text-xs text-muted-foreground mt-1">Jumlah Penduduk</p>
+                    <p class="font-heading text-2xl font-bold text-primary">46 Hari</p>
+                    <p class="text-xs text-muted-foreground mt-1">Rekor Waktu Pengerjaan Tahap Akhir</p>
                 </div>
             </div>
             <div class="border-0 shadow-md rounded-2xl bg-background">
                 <div class="p-5 text-center">
-                    <p class="font-heading text-2xl font-bold text-primary">12</p>
-                    <p class="text-xs text-muted-foreground mt-1">Lingkungan / RT</p>
+                    <p class="font-heading text-2xl font-bold text-primary">22 Agustus</p>
+                    <p class="text-xs text-muted-foreground mt-1">Hari Peringatan Karya Agung</p>
                 </div>
             </div>
             <div class="border-0 shadow-md rounded-2xl bg-background">
                 <div class="p-5 text-center">
-                    <p class="font-heading text-2xl font-bold text-primary">2.180</p>
-                    <p class="text-xs text-muted-foreground mt-1">Kepala Keluarga</p>
+                    <p class="font-heading text-2xl font-bold text-primary">6</p>
+                    <p class="text-xs text-muted-foreground mt-1">Fasilitas Utama Hasil Undian Donatur</p>
                 </div>
             </div>
         </div>
