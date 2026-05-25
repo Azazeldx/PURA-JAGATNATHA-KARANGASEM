@@ -33,7 +33,7 @@ return array (
   ),
     'instagram' => 
   array (
-    'url' => 'https://www.instagram.com/kelurahan_punia?igsh=dmlnN3hseXJ4ZGh6',
+      'url' => 'https://www.instagram.com/pura_jagatnatha_karangasem',
     'label' => 'PURA JAGATNATHA KARANGASEM',
   ),
   'pinterest' => 
