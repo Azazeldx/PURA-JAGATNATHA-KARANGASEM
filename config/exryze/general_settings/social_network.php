@@ -31,10 +31,10 @@ return array (
     'url' => NULL,
     'label' => NULL,
   ),
-    'instagram' => 
+  'instagram' => 
   array (
-      'url' => 'https://www.instagram.com/pura_jagatnatha_karangasem',
-    'label' => 'PURA JAGATNATHA KARANGASEM',
+    'url' => NULL,
+    'label' => '@kelurahan_punia',
   ),
   'pinterest' => 
   array (

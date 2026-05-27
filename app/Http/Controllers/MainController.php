@@ -30,9 +30,14 @@ class MainController extends Controller
                     $key = $block['data']['key'];
 
                     if ($block['type'] == 'image') {
-                        $img = Media::where('id', $config[$key])->first();
-
-                        data_set($config, $key, $img);
+                        // Safely handle cases where the key may not be present
+                        if (array_key_exists($key, $config) && !empty($config[$key])) {
+                            $img = Media::where('id', $config[$key])->first();
+                            data_set($config, $key, $img);
+                        } else {
+                            // ensure key exists in config to avoid undefined index errors
+                            data_set($config, $key, null);
+                        }
                     } else if ($block['type'] == 'posts') {
                         $data = $block['data'];
 
@@ -152,8 +157,16 @@ class MainController extends Controller
 
             switch ($region) {
                 case PageRegionEnum::Main->value:
-                    foreach (data_get($page->page_content, PageRegionEnum::Main->value) as $section => $config) {
-                        $sectionSchema = PageSection::where('id', $config['section_id'])->first(['slug', 'section_schema']);
+                    foreach (data_get($page->page_content, PageRegionEnum::Main->value, []) as $section => $config) {
+                        $sectionId = data_get($config, 'section_id');
+
+                        // Skip malformed/incomplete repeater items that do not
+                        // have a selected section yet.
+                        if (! $sectionId) {
+                            continue;
+                        }
+
+                        $sectionSchema = PageSection::where('id', $sectionId)->first(['slug', 'section_schema']);
 
                         if (is_null($sectionSchema)) continue;
 

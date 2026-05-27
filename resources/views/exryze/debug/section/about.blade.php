@@ -34,7 +34,7 @@
             <div class="border-0 shadow-md rounded-2xl">
                 <div class="p-5 text-center">
                     <p class="font-heading text-2xl font-bold text-primary">1.2 km²</p>
-                    <p class="text-xs text-muted-foreground mt-1">Luas Wilayah</p>
+                    <p class="text-xs text-muted-foreground mt-1">Berdiri Sejak</p>
                 </div>
             </div>
             <div class="border-0 shadow-md rounded-2xl">

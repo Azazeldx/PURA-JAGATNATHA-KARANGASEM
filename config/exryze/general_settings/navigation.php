@@ -40,12 +40,12 @@ return array (
     2 => 
     array (
       'type' => 'page',
-      'label' => 'UMKM',
-      'page_id' => 7,
+      'label' => '360 View',
+      'page_id' => 9,
       'page' => 
       array (
-        'title' => 'UMKM',
-        'slug' => 'umkm',
+        'title' => '360 View',
+        'slug' => '360-view',
       ),
     ),
     3 => 

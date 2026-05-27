@@ -1,28 +1,24 @@
 <section class="py-12 md:py-16">
     <div class="container mx-auto px-4 max-w-4xl">
         <h2 class="font-heading text-3xl md:text-4xl font-bold text-foreground mb-2">
-        Hubungi Kami
+        Kontak Pura Jagatnatha
         </h2>
 
         <p class="text-muted-foreground mb-10">
-        Silakan hubungi kami melalui informasi di bawah atau kunjungi kantor kelurahan secara langsung.
+        Silakan hubungi kami melalui informasi di bawah atau kunjungi Pura Jagatnatha secara langsung.
         </p>
 
         <ul class="grid gap-4 sm:grid-cols-2 mb-12!">
-            @if ($settings->get('contacts.email'))
-                <x-exryze::card.contact 
-                    title="Email"
-                    label="{{ $settings->get('contacts.email') }}"
-                    url="mailto:{{ $settings->get('contacts.email') }}"
-                    icon="envelope"/>
-            @endif
-            @if ($settings->get('contacts.phone'))
-                <x-exryze::card.contact 
-                    title="Telepon"
-                    label="{{ $settings->get('contacts.phone') }}"
-                    url="tel:{{ $settings->get('contacts.phone') }}"
-                    icon="phone"/>
-            @endif
+            <x-exryze::card.contact 
+                title="Narahubung"
+                label="Jero Mangku Mukur"
+                url="#"
+                icon="user"/>
+            <x-exryze::card.contact 
+                title="Telepon"
+                label="+6287800160354"
+                url="tel:+6287800160354"
+                icon="phone"/>
             @if ($settings->get('location.address'))
                 <x-exryze::card.contact
                     title="Alamat"

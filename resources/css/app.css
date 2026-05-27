@@ -22,7 +22,7 @@
     --color-muted-foreground: hsl(210 15% 40%);
 
     /* Primary (Biru logo) */
-    --color-primary: hsl(205 75% 45%);
+    --color-primary: #4a49b3;
     --color-primary-foreground: hsl(0 0% 100%);
 
     /* Secondary (Kuning bintang) */
@@ -35,7 +35,7 @@
 
     /* Border / subtle UI */
     --color-border: hsl(205 20% 85%);
-    --color-ring: hsl(205 75% 45%);
+    --color-ring: #4a49b3;
 }
 
 @layer utilities {
