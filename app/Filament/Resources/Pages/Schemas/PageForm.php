@@ -10,6 +10,7 @@ use App\Filament\Schemas\Components\SchemaTabs\MetadataTab;
 use App\Models\PageLayout;
 use App\Models\PageSection;
 use Awcodes\Curator\Components\Forms\CuratorPicker;
+use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Repeater;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
@@ -26,6 +27,11 @@ class PageForm
     {
         $fields = [];
         $isVisionMissionSection = data_get($section, 'view_path') === 'dynamic.main.vision-mission';
+        $isHighlightSection = data_get($section, 'view_path') === 'dynamic.main.highlight-full';
+        $isPaginationSection = in_array(data_get($section, 'view_path'), [
+            'dynamic.main.pagination-full',
+            'dynamic.main.pagination-4xl',
+        ], true);
         $labelMap = [
             'area' => 'Berdiri Sejak',
             'population' => 'Rata-rata Pemedek',
@@ -138,6 +144,21 @@ class PageForm
                         ])
                         ->columnSpanFull();
                 }
+
+                    if ($isHighlightSection || $isPaginationSection) {
+                        $fields['download_pdf_file'] = FileUpload::make('download_pdf_file')
+                            ->label('Upload PDF SK Pengurus (Opsional)')
+                            ->helperText('Upload PDF langsung dari admin panel. Akan dipakai sebagai tombol download jika URL tidak diisi.')
+                            ->disk('public')
+                            ->directory('static/other')
+                            ->acceptedFileTypes(['application/pdf'])
+                            ->maxSize(10240);
+
+                        $fields['download_pdf_url'] = TextInput::make('download_pdf_url')
+                        ->label('URL Download PDF (Opsional)')
+                            ->helperText('Prioritas utama untuk tombol download. Jika kosong, sistem akan pakai file upload PDF di atas.')
+                        ->url();
+                    }
                 break;
 
             case PageSectionTypeEnum::Builder->value:

@@ -14,6 +14,7 @@ use Filament\Pages\Page;
 use Filament\Schemas\Schema;
 use Filament\Support\Colors\Color;
 use Filament\Support\Icons\Heroicon;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use UnitEnum;
@@ -97,6 +98,7 @@ class GeneralSettingsPage extends Page
         // }
 
         GeneralSetting::updateOrCreate(['id' => 1], $setting);
+        Artisan::call('settings:sync');
 
         $this->successNotification('Settings updated');
         redirect(request()?->header('Referer'));

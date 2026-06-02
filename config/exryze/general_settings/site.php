@@ -5,6 +5,6 @@ return array (
   'logo' => 'assets/logo.png',
   'name' => 'Pura Jagatnatha',
   'favicon' => 'assets/favicon.ico',
-  'description' => 'Portal Informasi Resmi',
+  'description' => 'Kabupaten karangasem',
   'dashboard_url' => 'admin',
 );
