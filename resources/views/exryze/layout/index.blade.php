@@ -98,6 +98,64 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'id',
+                includedLanguages: 'ar,zh-CN,zh-TW,en,fr,hi,id,ja,ko',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <style>
+        .VIpgJd-ZVi9od-ORHb-OEVmcd,
+        .goog-te-banner-frame {
+            display: none !important;
+        }
+
+        body {
+            top: 0px !important;
+        }
+
+        /* Override Tailwind's base img reset which breaks Google Translate layout */
+        #google_translate_element img {
+            display: inline !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        /* Style the widget to fit nicely into the navigation bar */
+        .goog-te-gadget-simple {
+            background-color: #ffffff !important;
+            border: 1px solid #d1d5db !important;
+            border-radius: 9999px !important;
+            padding: 6px 16px !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+        }
+
+        .goog-te-menu-value {
+            display: inline-flex !important;
+            align-items: center !important;
+            color: #374151 !important;
+            text-decoration: none !important;
+            font-size: 14px !important;
+            font-family: inherit !important;
+            gap: 6px !important;
+        }
+
+        /* Remove the ugly vertical bar separator */
+        .goog-te-menu-value span[style*="border-left"] {
+            display: none !important;
+        }
+        
+        .goog-te-menu-value span[aria-hidden="true"] {
+            font-size: 10px !important;
+            color: #9ca3af !important;
+        }
+    </style>
 </body>
 
 </html>

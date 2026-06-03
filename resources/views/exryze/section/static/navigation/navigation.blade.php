@@ -39,6 +39,10 @@
                         url="{{ $navItem['url'] }}"/>
                 @endif
             @endforeach
+
+            <li class="w-full md:w-auto md:ml-2 py-1">
+                <div id="google_translate_element"></div>
+            </li>
         </ul>
 
         <!-- Search Form -->
